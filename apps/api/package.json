@@ -1,0 +1,11 @@
+{
+  "name": "@codemit/api",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/server.ts"
+  },
+  "dependencies": {
+    "@codemit/shared": "workspace:^",
+    "hono": "^4.0.0"
+  }
+}

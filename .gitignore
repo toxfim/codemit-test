@@ -1,0 +1,31 @@
+# root
+/node_modules
+/.env
+/.claude
+
+# apps
+# bot
+/apps/bot/node_modules
+/apps/bot/.env
+
+# api
+/apps/api/node_modules
+/apps/api/.env
+
+# web
+/apps/web/node_modules
+/apps/web/.env
+
+# packages
+/packages/shared/node_modules
+
+# dist
+/dist
+/apps/api/dist
+/apps/bot/dist
+/apps/web/dist
+/packages/shared/dist
+
+# pnpm
+.pnpm-store
+

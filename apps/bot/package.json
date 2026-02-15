@@ -1,0 +1,12 @@
+{
+  "name": "@codemit/bot",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@codemit/shared": "workspace:^",
+    "dotenv": "^16.0.0",
+    "grammy": "^1.0.0"
+  }
+}
